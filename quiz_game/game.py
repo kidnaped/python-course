@@ -1,4 +1,18 @@
 # ----------------------------------
+questions = {
+    "Who created Python?: " : "A",
+    "What year was Python created?: " : "B",
+    "Python is tributed to which comedy group?: " : "C",
+    "Is the Earth round?: " : "A"
+}
+
+options =   [["A. Guido van Rossum", "B. Elon Musk", "C. Bill Gates", "D. Mark Zuckerberg"],
+            ["A. 1989", "B. 1991", "C. 2000", "D. 2016"],
+            ["A. Lonely Island", "B. Smosh", "C. Monthy Python", "D. SNL"],
+            ["A. True", "B. False", "C. Sometimes", "D. What's Earth?"]]
+
+# ----------------------------------
+
 def new_game():
     guesses = []            # list of all guesses we made
     correct_guesses = 0     # score of our correct answers
@@ -54,18 +68,6 @@ def play_again():                                      # funct that manages poss
     else:
         return False
 # ----------------------------------
-
-questions = {
-    "Who created Python?: " : "A",
-    "What year was Python created?: " : "B",
-    "Python is tributed to which comedy group?: " : "C",
-    "Is the Earth round?: " : "A"
-}
-
-options =   [["A. Guido van Rossum", "B. Elon Musk", "C. Bill Gates", "D. Mark Zuckerberg"],
-            ["A. 1989", "B. 1991", "C. 2000", "D. 2016"],
-            ["A. Lonely Island", "B. Smosh", "C. Monthy Python", "D. SNL"],
-            ["A. True", "B. False", "C. Sometimes", "D. What's Earth?"]]
 
 new_game()
 
