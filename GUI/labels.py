@@ -6,7 +6,7 @@ window = Tk()
 
 photo = PhotoImage(file='logo.png')
 
-label = Label(window, 
+label = Label(window,               # pass the parameters for our label
               text="Hello World", 
               font=("Arial", 40, "bold"), 
               fg="#2d0630",         # foreground color
@@ -20,6 +20,7 @@ label = Label(window,
                     
 
 label.pack()    # places our label in the middle upper position of a window by default
+
 # anothre way to do this, but with place of our choise
 #label.place(x=0, y=0)
 

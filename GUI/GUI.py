@@ -12,6 +12,7 @@ window.title("The King of Hills")
 
 icon = PhotoImage(file="logo.png")   # convert our logo.png (NOT recognize JPG) file into a PhotoImage file
 window.iconphoto(True, icon)         # sets our logo,png as a icon for a window
+
 #window.config(background="Dark blue")# set background color with words
 window.config(background="#0f002e")   # set background color with hex number
 
