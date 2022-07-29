@@ -10,7 +10,7 @@ def click():
 
 window = Tk()
 
-button_image = PhotoImage(file="ext128.png")
+button_image = PhotoImage(file="ext64.png")
 
 button = Button(window,
                 text="Click Me!",
